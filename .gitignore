@@ -1,0 +1,86 @@
+# OS/macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+.Spotlight-V100
+.Trashes
+
+# Editors/IDEs
+.vscode/
+.idea/
+*.code-workspace
+.clangd/
+.clang-tidy
+.clang-format
+
+# Build systems & artifacts
+build/
+build-*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+install_manifest.txt
+Testing/
+build.ninja
+.ninja_deps
+.ninja_log
+
+# Binaries and objects
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.so
+*.dylib
+*.dll
+*.lib
+*.exe
+*.out
+*.app
+*.pdb
+*.idb
+*.exp
+
+# Archives
+*.tar
+*.gz
+*.zip
+*.7z
+*.bz2
+*.tar.gz
+
+# Coverage & profiling
+*.gcda
+*.gcno
+*.gcov
+profraw/
+profile.out
+coverage/
+
+# Logs & temps
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*.orig
+
+# Package managers & caches
+.conan/
+.vcpkg-root
+vcpkg_installed/
+ccache/
+
+# Generated compile databases
+compile_commands.json
+compile_flags.txt
+
+# Xcode (if any)
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+DerivedData/
